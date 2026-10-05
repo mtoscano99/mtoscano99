@@ -93,7 +93,7 @@ Sistema de escalas de trabalho para supermercados.
 
 ## Formação
 
-**Economia** · Universidade Unigranrio
+**Bacharelado em Economia** · Universidade Unigranrio · concluído em jun. 2026
 
 ---
 
