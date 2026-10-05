@@ -1,22 +1,45 @@
 # Olá, eu sou Matheus Toscano
 
-Desenvolvedor Full Stack. Construo aplicações React e React Native no front-end, APIs Node.js no back-end e opero a infraestrutura onde elas rodam: Supabase (PostgreSQL, Auth, RLS), Vercel e automações com IA.
+**Desenvolvedor Full Stack & Engenheiro de IA** · Economista · Rio de Janeiro, Brasil
 
-O que me diferencia não é a lista de tecnologias: é colocar sistemas em produção para gente de verdade usar todo dia, e medir o resultado em vez de supor.
+Construo e mantenho em produção um ERP, apps iOS/Android e cerca de 18 agentes de IA usados no dia a dia de uma instituição, com React, TypeScript, Supabase/Postgres e Python.
+
+A formação em Economia me faz começar pelo número: meço antes de construir, entendo o problema de negócio e traduzo em sistema.
+
+**Aberto a vagas** de Desenvolvedor Full Stack, Engenheiro de Software, AI Engineer e Automação: remoto (Brasil e exterior) ou híbrido no Rio.
+
+---
+
+## O que já entreguei
+
+- 3 produtos em produção em 6 meses (gestão, app de membros e app de colaboradores)
+- Mais de 1.400 pull requests, mais de 4.000 testes automatizados e 33 checagens automáticas antes de cada versão ir ao ar
+- Agentes de IA com Claude Agent SDK, sempre com aprovação humana em decisões financeiras
+- Integrações bancárias e de pagamento: Santander (PIX e boletos), conciliação OFX, Stripe e Apple Pay
+- Integração com hardware: totem de check-in, impressora térmica e pagers
+- Sistema próprio de vendas no Mercado Livre que calcula o lucro real de cada venda e bate ao centavo com o Mercado Pago
 
 ---
 
 ## Projeto em destaque
 
-### ERP da CBRio (Comunidade Batista do Rio)
+### CBRio ERP: Sistema de Gestão com Agentes de IA
 
-Sistema de gestão completo de uma igreja com milhares de membros, em produção: membresia, voluntariado, grupos, Kids (totem de check-in com etiqueta), financeiro, solicitações com fluxo de aprovação, RH, marketing, inscrições em eventos com pagamento e painéis de indicadores (OKR/KPI) alimentados automaticamente pela operação.
+Sistema web de gestão (ERP/CRM) feito para substituir as planilhas, o papel e as ferramentas desconectadas da CBRio (Comunidade Batista do Rio de Janeiro). Hoje cobre a operação da instituição: finanças, pessoas, voluntários, eventos e indicadores.
 
-Junto com o sistema web, dois aplicativos publicados nas lojas: o **app de membros** (iOS e Android) e o **app da equipe**, os dois falando com a mesma API.
+- Agente financeiro (Claude Agent SDK + MCP) que classifica lançamentos, contas a pagar e reembolsos, com fila de aprovação humana e segurança HMAC
+- Cerca de 18 agentes de IA em segundo plano que diagnosticam erros e auditam indicadores
+- Integração bancária com o Santander (PIX, boletos e comprovantes) e conciliação automática de extratos OFX
+- Leitura automática de notas fiscais (OCR com Claude Vision), busca com RAG e bot de WhatsApp
+- Check-in de voluntários e do Kids alimentando dashboards de KPIs e OKRs em tempo real
+- Mais de 1.400 pull requests, mais de 4.000 testes automatizados e 33 checagens automáticas antes de cada versão ir ao ar
+- Um manual com mais de 23 mil linhas de regras que a IA lê antes de cada tarefa, para não repetir erros
 
-**Tecnologias:** React 18 · TypeScript · Vite · Express · Supabase (PostgreSQL, Auth, RLS) · Vercel · Expo / React Native · WhatsApp Cloud API · Claude API
+Junto com o sistema web, dois apps: o **app de membros** iOS/Android (Expo), com login Google/Apple, inscrições, notificações push e Apple/Google Wallet, que substituiu uma contratação externa estimada entre R$ 60 mil e R$ 200 mil; e o **app de colaboradores**.
 
-O código é privado: o sistema guarda dados pessoais de membros e crianças, protegidos por RLS e auditoria.
+**Stack:** React · TypeScript · TanStack · Supabase (Postgres, Edge Functions, RLS, Realtime) · Python · Claude Agent SDK · Expo / React Native
+
+O código é privado: o sistema guarda dados pessoais de membros e crianças.
 
 ---
 
@@ -44,15 +67,33 @@ Sistema de escalas de trabalho para supermercados.
 
 ---
 
-## Competências
+## Experiência
 
-- **Linguagens:** JavaScript · TypeScript · Python · SQL · HTML · CSS
-- **Front-end:** React · Next.js · React Native (Expo) · Tailwind CSS · shadcn/ui
-- **Back-end:** Node.js · Express · REST APIs · Edge Functions
-- **Banco de dados:** PostgreSQL · Supabase (RLS, migrations, triggers)
-- **Infra e entrega:** Vercel · GitHub Actions · EAS (builds e atualizações OTA)
-- **IA:** Claude API · agentes com tool use · automação de processos
-- **Integrações:** WhatsApp Cloud API · Mercado Livre · Mercado Pago · YouTube
+**Comunidade Batista do Rio de Janeiro** · Rio de Janeiro
+
+- **Coordenador de Tecnologia e Inovação · Desenvolvedor Full Stack & IA** (out. 2025 – atual)
+  Lidero e desenvolvo a frente de tecnologia da CBRio. Em 6 meses, colocamos em produção 3 produtos, feitos por um time pequeno com IA (Claude Code) como par de programação. Métricas do YouTube coletadas automaticamente (APIs Data e Analytics + GitHub Actions) e dashboards em Power BI com KPIs e OKRs integrados ao SharePoint.
+- **Coordenador Financeiro** (jan. 2024 – out. 2025)
+  Gestão financeira com foco em automação e dados: contas a pagar, planejamento orçamentário, DRE e fluxo de caixa; automação de rotinas com Power Automate e Python; base para a integração bancária e a conciliação automática do ERP.
+- **Analista de Dados** (jan. 2023 – jan. 2024)
+  Coleta e tratamento dos dados ministeriais e financeiros, criando a primeira estrutura de indicadores da instituição: dashboards em Power BI (DAX, Power Query), integração via SharePoint e Microsoft 365, KPIs de frequência, voluntariado e finanças.
+
+**Claro Brasil** · Assistente Administrativo (ago. 2020 – jan. 2021)
+
+---
+
+## Stack
+
+- **Full stack:** React · TypeScript · TanStack · Next.js · React Native/Expo
+- **Back-end e dados:** Supabase · PostgreSQL · Edge Functions · SQL · APIs REST · webhooks
+- **IA e automação:** Claude Code · Claude Agent SDK · LLMs · Python (pandas, Playwright, Selenium) · n8n · GitHub Actions
+- **BI:** Power BI · DAX · Power Query · Excel avançado
+
+---
+
+## Formação
+
+**Economia** · Universidade Unigranrio
 
 ---
 
